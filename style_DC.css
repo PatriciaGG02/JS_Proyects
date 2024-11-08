@@ -1,0 +1,131 @@
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+
+}
+
+header {  
+    background-color: rgba(0, 255, 255, 0.678);
+    padding: 1px;
+}
+
+#date {
+    text-align: right;
+    margin-top: 40px;
+}
+
+#title{
+    text-align: center;
+}
+
+#firstL {
+    float: left;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+#secondL{
+    float: right;
+    max-width: 150px;
+    max-height: 100px;
+}
+
+main {
+    color: black;
+}
+
+#patientI, #completed, #plan{
+    float: left;
+    max-width: 40px;
+    max-height: 45px;
+}
+
+/* Estilos del formulario de pacientes */
+#patients{
+    max-width: 1400px;
+    margin: 0%;
+    padding: 20px;
+    border: 1px solid #064e4e;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(1, 39, 51, 0.1);
+}
+
+#nameP, #surNP, #DNIP, #phoneP, #birthdateP {
+    margin-bottom: 8px;
+    font-weight: bold;   
+}
+
+#patientB, #create {
+    width: 80px;
+    height: 50px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-size: small;
+    background-color: #30a54a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#patientB:hover, #create:hover {
+    background-color: #37cf58;
+}
+
+#quotes{
+    max-width: 950px;
+    margin: 0%;
+    padding: 20px;
+    border: 1px solid #064e4e;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(1, 39, 51, 0.1);
+}
+
+/* Estilos de la tabla de las citas */
+.quoteTable {
+    width: 100px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: medium;
+    border-radius: 8px;
+}
+
+.quoteTable th, .quoteTable td {
+    border: 1px solid aquamarine;
+    padding: 10px;
+    text-align: left;
+    /* border-radius: 8px; */
+}
+
+.quoteTable th {
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.quoteTable tr:nth-child(even) {
+    background-color: brown;
+}
+
+.quoteTable tr:hover {
+    background-color: crimson;
+}
+
+.quoteTable .dataQuotes td {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
+
+.quoteTable td{
+    padding: 8px;
+}
+
+footer {
+    background-color: aliceblue;
+}
